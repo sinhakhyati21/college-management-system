@@ -1,0 +1,36 @@
+{
+  "name": "college-management",
+  "version": "1.0.0",
+  "description": "A college management platform",
+  "keywords": [
+    "college",
+    "management",
+    "platform"
+  ],
+  "license": "ISC",
+  "author": "Khyati",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.9.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.3.1",
+    "mongoose-aggregate-paginate-v2": "^1.1.4",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.4"
+  }
+}
